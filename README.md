@@ -11,7 +11,7 @@ After the recent funding programmes, they have been able to raise around $ 10 mi
 
 And this is where you come in as a data analyst. Your job is to categorise the countries using some socio-economic and health factors that determine the overall development of the country. Then you need to suggest the countries which the CEO needs to focus on the most.  The datasets containing those socio-economic factors and the corresponding data dictionary are provided below.
 
-## Objectives
+### Objectives
 Your main task is to cluster the countries by the factors mentioned above and then present your solution and recommendations to the CEO using a PPT.  The following approach is suggested :
 
  
@@ -22,3 +22,21 @@ Your main task is to cluster the countries by the factors mentioned above and th
 - Analyse the clusters and identify the ones which are in dire need of aid. You can analyse the clusters by comparing how these three variables - [**gdpp**, **child_mort** and **income**] vary for each cluster of countries to recognise and differentiate the clusters of developed countries from the clusters of under-developed countries.
 - Also, you need to perform visualisations on the clusters that have been formed.  You can do this by choosing any two of the three variables mentioned above on the X-Y axes and plotting a scatter plot of all the countries and differentiating the clusters. Make sure you create visualisations for all the three pairs. You can also choose other types of plots like boxplots, etc. 
 - Both K-means and Hierarchical may give different results because of previous analysis (whether you chose to keep or remove the outliers, how many clusters you chose,  etc.) Hence, there might be some subjectivity in the final number of countries that you think should be reported back to the CEO since they depend upon the preceding analysis as well. Here, make sure that you report back at least 5 countries which are in direst need of aid from the analysis work that you perform.
+
+## Assignment: Part II
+This part of the assignment is subjective and hence, you are required to write the answers and submit them in a PDF file.
+
+### Question 1: Assignment Summary
+
+Briefly describe the "Clustering of Countries" assignment that you just completed within 200-300 words. Mention the problem statement and the solution methodology that you followed to arrive at the final list of countries. Explain your main choices briefly( what EDA you performed, which type of Clustering produced a better result and so on) 
+
+Note: You don't have to include any images, equations or graphs for this question. Just text should be enough.
+
+ 
+
+### Question 2: Clustering
+      a) Compare and contrast K-means Clustering and Hierarchical Clustering.
+      b) Briefly explain the steps of the K-means clustering algorithm. 
+      c) How is the value of ‘k’ chosen in K-means clustering? Explain both the statistical as well as the business aspect of it.
+      d) Explain the necessity for scaling/standardisation before performing Clustering.
+      e) Explain the different linkages used in Hierarchical Clustering.
